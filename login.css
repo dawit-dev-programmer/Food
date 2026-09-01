@@ -1,0 +1,95 @@
+body{
+  background: hwb(235 29% 58%);
+  color: hwb(0 100% 0%);
+}
+#login{
+  margin-top: 30px;
+  color: hwb(240 42% 38%);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  text-shadow: 10px 10px 10px Black;
+  
+}
+#loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 360px;
+  margin-left: -5px;
+  margin-top: 130px;
+  background: hwb(237 34% 57%);
+  border-radius: 15px;
+  height: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 15px 15px 15px black;
+}
+#email{
+  font-size: 16px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  user-select: none;
+  outline: none;
+  transition: .5s;
+}
+#email:focus{
+  border: 2px solid hwb(0 2% 98%);
+  transform: translateY(-10px);
+  
+  
+}
+#password{
+  font-size: 16px;
+  height: 15px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  user-select: none;
+  outline: none;
+  transition: .5s;
+}
+#password:focus{
+  border: 2px solid hwb(0 2% 98%);
+  transform: translateY(-10px); 
+}
+#chekbox{
+  font-weight: 300;
+  font-size: 14px;
+  color: hwb(0 63% 37%);
+}
+#chekboxB{
+  margin-top: -23px;
+  margin-left: 98px;
+}
+#loginBTN{
+  font-size: 17px;
+  font-weight: bold;
+  background: hwb(248 29% 54%);
+  border-radius: 8px;
+  border: none;
+  box-shadow: 10px 10px 20px lab(0% 0 0);
+  width: 370px;
+  height: 30px;
+  transition: .6s;
+}
+#loginBTN:active{
+  transition: .6s;
+  transform: scale(1.1);
+}
+#closelogin{
+  position: absolute;
+  margin-top: -123%;
+  background: transparent;
+  font-size: 2.5em;
+  border: none;
+  transition: .3s;
+}
+#closelogin:active{
+  border-radius: 50%;
+  color: white;
+}
