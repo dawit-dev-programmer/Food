@@ -1,0 +1,418 @@
+body{
+  color: white;
+  margin: 0;
+  padding: 0;
+  animation: smoothColorChange 10s infinite alternate ease-in-out;
+}
+#webName{
+    font-size: 40px;
+    font-weight: 800;
+    color: #f9ac00;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+#line{
+  border: 1px solid;      
+    width: 500px;            
+    background-color: #838383;  
+    margin: 20px 0;          
+    opacity: 0.5;     
+}
+#Headtitle{
+  font-weight: 150;
+  margin-top: -15px;
+}
+#subtitle{
+  font-size: 16px;
+  font-weight: 250;
+}
+#food1photo{
+  position: absolute;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px lab(0% 0 0);;
+  margin-top: 50%;
+  margin-left: -2%;
+  transition: .8s;
+}
+#food2photo{
+  position: absolute;
+  width: 213px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px lab(0% 0 0);
+  margin-top: 40%;
+  margin-left: 5%;
+  transition: .8s;  
+}
+#food3photo{
+  position: absolute;
+  width: 220px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px lab(0% 0 0);;
+  margin-top: 30%;
+  margin-left: 15%;
+  transition: .8s;
+}
+
+#food4photo{
+  position: absolute;
+  width: 220px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px lab(0% 0 0);;
+  margin-top: 20%;
+  margin-left: 25%;
+  transition: .8s;
+}
+
+#food5photo{
+  position: absolute;
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px lab(0% 0 0);
+  margin-top: 10%;
+  margin-left: 35%;
+  transition: .8s;
+}
+#food6photo{
+  position: absolute;
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px lab(0% 0 0);
+  margin-top: 0%;
+  margin-left: 50%;
+  transition: .8s;
+}
+#food1photo:hover{
+  transition: .8s;
+  transform: translateY(245px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food2photo:hover{
+  transition: .8s;
+  transform: translateY(250px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food3photo:hover{
+  transition: .8s;
+  transform: translateY(260px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food4photo:hover{
+  transition: .8s;
+  transform: translateY(265px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food5photo:hover{
+  transition: .8s;
+  transform: translateY(270px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food6photo:hover{
+  transition: .8s;
+  transform: translateY(295px);
+  box-shadow: 0 0 20px hwb(0 96% 4%);
+}
+#food1photo:active{
+  transition: .8s;
+  transform: translateX(100px);
+}
+#food2photo:active{
+  transition: .8s;
+  transform: translateX(100px);
+}
+#food3photo:active{
+  transition: .8s;
+  transform: translateX(100px);
+}
+#food4photo:active{
+  transition: .8s;
+  transform: translateX(100px); 
+}
+#food5photo:active{
+  transition: .8s;
+  transform: translateX(100px);
+}
+#food6photo:active{
+  transition: .8s;
+  transform: translateX(-100px); 
+}
+
+#start{
+  position: relative;
+  padding: 14px 36px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: -10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#start:active{
+  background: hwb(0 57% 43%);
+}
+#start::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(transparent, transparent, #ffd700, #ff4757);
+    animation: rotateBorder 1s linear infinite;
+    z-index: -2;
+}
+#start::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #252836;
+    border-radius: 10px;
+    z-index: -1;
+}
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#line2{
+  width: 500px;
+  transform: translateY(50rem);
+  border: 1px solid;                 
+  background-color: #838383;  
+  margin: 20px 0;          
+  opacity: 0.5;     
+}
+#traditional{
+  margin-left: 15%;
+  position: absolute;
+  margin-top: 50rem;
+  color: hwb(0 100% 0%);
+  font-family: monospace;
+  font-size: 20px;
+}
+#genfo{
+  position: absolute;
+  margin-top: 52rem;
+  margin-left: 20px;
+  background: lab(18% 0 0);
+  border-radius: 10px;
+  color: hwb(0 100% 0%);
+  width: 20rem;
+  height: 60px;
+  padding: 20px 20px 20px 20px;
+  transition: .6s;
+}
+#genfo:hover{
+  transform: translateY(-7px);
+}
+#desGenfo{
+  margin-left: 30%;
+  position: absolute;
+  margin-top: 60rem;
+  color: hwb(0 100% 0%);
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#special-genfo{
+  position: absolute;
+  margin-top: 63rem;
+  margin-left: 20px;
+  background: lab(18% 0 0);
+  border-radius: 10px;
+  color: hwb(0 100% 0%);
+  width: 20rem;
+  height: 60px;
+  padding: 20px 20px 20px 20px;
+  transition: .6s;
+}
+#special-genfo:hover{
+  transform: translateY(-10px);
+}
+#WhyBig{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 70rem;
+  color: hwb(0 100% 0%);
+  font-weight: 200;
+}
+#whynote{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 74rem;
+  color: hwb(0 100% 0%);
+  font-weight: 200;
+}
+#whynote2{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 77rem;
+  color: hwb(0 100% 0%);
+  font-weight: 200;
+}
+#whynote3{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 80rem;
+  color: hwb(0 100% 0%);
+  font-weight: 200;
+}
+#How-To{
+  border-radius: 10px;
+  padding: 10px 10px;
+  background: #2c2c2c;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 84rem;
+  color: hwb(0 100% 0%);
+  font-weight: 200;
+}
+#RevewBig{
+  position: absolute;
+  margin-top: 98rem;
+  margin-left: 3px;
+}
+#first{
+  font-size: 17px;
+  font-weight: bold;
+  background: hwb(204 46% 0%);
+  border-radius: 8px;
+  width: 100px;
+  border: none;
+  height: 25px;
+  margin-left: 145px;
+  margin-top: 103rem;
+  position: absolute;
+  transition: .5s;
+}
+#first:active{
+  transform: translateY(-10px);
+  background: hwb(187 0% 51%);
+}
+#firstChack{
+  margin-left: 5px;
+  margin-top: 100.2rem;
+  position: absolute;
+}
+#firstNote{
+  font-weight: 300;
+  font-size: 17px;
+  width: 350px;
+  height: 50px;
+  position: absolute;
+  margin-top: 100rem;
+  margin-left: 6%;
+}
+#secondChack{
+  margin-left: 5px;
+  margin-top: 106.1rem;
+  position: absolute;
+}
+#secondBtn{
+  font-size: 17px;
+  font-weight: bold;
+  background: hwb(204 46% 0%);
+  border-radius: 8px;
+  width: 100px;
+  border: none;
+  height: 25px;
+  margin-left: 145px;
+  margin-top: 109rem;
+  position: absolute;
+  transition: .5s;
+}
+#secondBtn:active{
+  transform: translateY(-10px);
+  background: hwb(187 0% 51%);
+}
+#second{
+  font-weight: 300;
+  font-size: 17px;
+  width: 350px;
+  position: absolute;
+  margin-top: 106rem;
+  margin-left: 6%;
+}
+#DoneTitle{
+  position: absolute;
+  margin-top: 112rem;
+  margin-left: 3%;
+}
+#open{
+  position: absolute;
+  margin-top: 113rem;
+  margin-left: 3%;
+}
+#location{
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  margin-top: 115rem;
+  margin-left: 110px;
+}
+#copy{
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  margin-top: 116rem;
+  margin-left: 50px;
+}
+.Sucssus{
+  color: Black;
+  position: absolute;
+  background: hwb(0 100% 0%);
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px Black;
+  padding: 10px 10px 10px 10px;
+  margin-top: 75rem;
+  margin-left: 100px;
+  opacity: -1;
+  transform: translateY(-10px);
+  transition: .5s ease; 
+}
+#DoneS{
+  margin-left: 75px;
+  border-radius: 5px;
+  background: lab(0% 0 0);
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+#DoneS:active{
+  background: hwb(0 50% 50%);
+}
+#recBig{
+  color: hwb(121 9% 0%);
+}
+.Sucssus.show{
+  opacity: 1;
+  transform: translateY(10px);
+}
+@keyframes smoothColorChange {
+    0% {
+        background-color: #3c4055;
+    }
+    33% {
+        background-color: #4c4f5f; 
+    }
+    66% {
+        background-color: #515569; 
+    }
+    100% {
+        background-color: #303a47; 
+    }
+}
